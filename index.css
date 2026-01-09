@@ -21,6 +21,10 @@
     vertical-align: middle;
     padding: 16px 32px;
     cursor: pointer;
+
+    &:hover {
+      background: var(--colors-orange-350, #f98f75);
+    }
   }
 }
 
@@ -80,6 +84,10 @@ header {
         letter-spacing: 0px;
         color: var(--colors-blue-950, #242d52);
         text-decoration: none;
+
+        &:hover {
+          color: #aeb6c6;
+        }
       }
       #n2 {
         width: 49px;
@@ -89,6 +97,10 @@ header {
         letter-spacing: 0px;
         color: var(--colors-blue-950, #242d52);
         text-decoration: none;
+
+        &:hover {
+          color: #aeb6c6;
+        }
       }
       #n3 {
         width: 56px;
@@ -98,6 +110,10 @@ header {
         letter-spacing: 0px;
         color: var(--colors-blue-950, #242d52);
         text-decoration: none;
+
+        &:hover {
+          color: #aeb6c6;
+        }
       }
       #n4 {
         width: 49px;
@@ -107,6 +123,10 @@ header {
         letter-spacing: 0px;
         color: var(--colors-blue-950, #242d52);
         text-decoration: none;
+
+        &:hover {
+          color: #aeb6c6;
+        }
       }
       #n5 {
         width: 73px;
@@ -116,6 +136,10 @@ header {
         letter-spacing: 0px;
         color: var(--colors-blue-950, #242d52);
         text-decoration: none;
+        
+        &:hover {
+          color: #aeb6c6;
+        }
       }
     }
 
@@ -843,6 +867,10 @@ main {
           background: var(--colors-white, #ffffff);
           box-shadow: 0px 15px 15px -10px #0000001a;
           color: var(--colors-orange-400, #f3603c);
+
+          &:hover {
+            color: var(--colors-orange-350, #f98f75);
+          }
         }
       }
     }
@@ -1044,6 +1072,11 @@ main {
             line-height: 163%;
             opacity: 1;
             color: var(--colors-white, #ffffff);
+            cursor: pointer;
+
+            &:hover {
+              color: var(--colors-orange-400, #f3603c);
+            }
           }
           #Footer-Links-Column {
             width: 255px;
@@ -1104,6 +1137,7 @@ main {
               width: 200px;
               height: 44px;
               border-radius: 22px;
+              border: 0;
               background: var(--colors-white, #ffffff);
 
               @media screen and (max-width: 767px) {
@@ -1123,6 +1157,9 @@ main {
                 padding-left: 15px;
                 color: var(--colors-gray-400, #8d8d8d);
               }
+              &:hover::placeholder {
+                color: var(--colors-red-500, #f33c3c);
+              }
             }
             button {
               width: 64px;
@@ -1135,6 +1172,10 @@ main {
               line-height: 145%;
               border: 0;
               cursor: pointer;
+
+              &:hover {
+                background: var(--colors-orange-350, #f98f75);
+              }
             }
           }
 
@@ -1146,7 +1187,7 @@ main {
             font-size: 13px;
             line-height: 145%;
             text-align: right;
-            color: var(--colors-white, #FFFFFF);
+            color: var(--colors-white, #ffffff);
 
             @media screen and (max-width: 767px) {
               display: none;
